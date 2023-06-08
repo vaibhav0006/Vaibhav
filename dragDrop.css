@@ -16,3 +16,17 @@
     background-position: center;
     background-image: url("testImg.png");
 }
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container .image {
+        width: auto;
+    }
+}
